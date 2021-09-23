@@ -109,7 +109,6 @@ parameters to examine:
 ### Request
 ```
 GET https://stats.cubecraft.net/socket.io/
-
 ```
 
 ### Response
