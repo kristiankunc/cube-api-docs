@@ -200,4 +200,4 @@ A list if all know parameters for this request, if a parameter is invalid, the s
 - Required: `False`
 - Allowed options: `yeast valid timestamp id`
 
-_Docs written by The_TecnoKing#7293_
+_Docs written by The_TecnoKing#7293 & KristN#1234_
