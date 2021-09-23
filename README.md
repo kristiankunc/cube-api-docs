@@ -39,7 +39,8 @@ REST(?) API accessible @ https://api.cubecraft.net/
     - [`transport`](#transport)
     - [`EIO`](#eio)
     - [`t`](#t)
-    
+
+---
 ## Root
 ### Request
 ```
@@ -54,6 +55,7 @@ GET https://api.cubecraft.net/
 ### Status code
 403
 
+---
 ## Skins
 ### Request
 ```
