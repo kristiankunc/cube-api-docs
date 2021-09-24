@@ -135,7 +135,7 @@ A list if all know parameters for this request, if a parameter is invalid, the s
 - Type: `string`
 - Default: `?`
 - Required: `False`
-- Allowed options: `yeast valid timestamp id`
+- Allowed options: `session.io valid sid`
 
 #### `transport`
 - Info: `socket.io transport protocol`
