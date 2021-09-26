@@ -11,6 +11,7 @@ REST(?) API accessible @ https://api.cubecraft.net/
   - [Request](#request)
   - [Response](#response)
   - [Status code](#status-code)
+  
 - [Skins](#skins)
   - [Request](#request-1)
   - [Response](#response-1)
@@ -23,6 +24,7 @@ REST(?) API accessible @ https://api.cubecraft.net/
     - [`displayHairs`](#displayhairs)
     - [`a`](#a)
     - [`w`](#w)
+    
 - [Stats](#stats)
   - [Request](#request-2)
   - [Response](#response-2)
@@ -39,7 +41,16 @@ REST(?) API accessible @ https://api.cubecraft.net/
     - [`transport`](#transport-1)
     - [`EIO`](#eio-1)
     - [`t`](#t-1)
-
+    
+- [MemberSearch](#MemberSearch)
+  - [Request](#request-4)
+  - [Response](#response-5)
+  - [Parameters](#parameters-3)
+    - [`q`](#q)
+    - [`_xfRequestUri`](#_xfRequestUri)
+    - [`_xfWithData`](#t_xfWithData)
+    - [`_xfToken`](#_xfToken)
+    - [`_xfResponseType`](#_xfResponseType)
 ---
 ## Root
 ### Request
@@ -199,5 +210,55 @@ A list if all know parameters for this request, if a parameter is invalid, the s
 - Default: `?`
 - Required: `False`
 - Allowed options: `yeast valid timestamp id`
+
+---
+## MemberSearch
+Returns list of forums members based on your query
+
+### Request
+```
+GET https://www.cubecraft.net/index.php?members/find
+```
+
+### Response
+- Type: `application/json`
+- Status Code: `200`
+
+### Parameters
+A list if all know parameters for this request, if a parameter is invalid, the server will use the default one, instead of returning an error.
+#### `q`
+- Info: `search query`
+- Type: `string`
+- Default: `None`
+- Required: `True`
+- Allowed options: `any string`
+
+#### `_xfRequestUri`
+- Info: `request uri`
+- Type: `string`
+- Default: `None`
+- Required: `False`
+- Allowed options: `%2Fmembers%2F`
+
+#### `_xfWithData`
+- Info: `??`
+- Type: `integer`
+- Default: `1`
+- Required: `False`
+- Allowed options: `1`
+
+#### `_xfToken`
+- Info: `authentication token`
+- Type: `string`
+- Default: `None`
+- Required: `True`
+- Allowed options: `valid auth token`
+
+#### `_xfResponseType`
+- Info: `response type`
+- Type: `string`
+- Default: `None`
+- Required: `False`
+- Allowed options: `["json"]`
 
 _Docs written by The_TecnoKing#7293 & KristN#1234_
