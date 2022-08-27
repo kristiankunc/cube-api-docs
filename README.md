@@ -269,7 +269,7 @@ A list if all know parameters for this request, if a parameter is invalid, the s
 
 ---
 ## Ranks
-Returns a rank of the provied player
+Returns a rank of the provided player
 
 ### Request
 ```
