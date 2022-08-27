@@ -51,6 +51,12 @@ REST(?) API accessible @ https://api.cubecraft.net/
     - [`_xfWithData`](#t_xfWithData)
     - [`_xfToken`](#_xfToken)
     - [`_xfResponseType`](#_xfResponseType)
+
+- [Ranks](#Ranks)
+  - [Request](#request-5)
+  - [Response](#response-6)
+  - [Parameters](#parameters-4)
+    - [`uuid`](#uuid)
 ---
 ## Root
 ### Request
@@ -261,4 +267,28 @@ A list if all know parameters for this request, if a parameter is invalid, the s
 - Required: `False`
 - Allowed options: `["json"]`
 
-_Docs written by The_TecnoKing#7293 & KristN#1234_
+---
+## Ranks
+Returns a rank of the provided player
+
+### Request
+```
+GET https://store-assets.cubecraft.net/v2/store_config.php?
+```
+
+### Response
+- Type: `application/json`
+- Status Code: `200`
+
+### Parameters
+A list if all know parameters for this request, if a parameter is invalid, the server will use the default one, instead of returning an error.
+
+#### `uuid`
+- Info: `uuid of a player`
+- Type: `string`
+- Default: `None`
+- Required: `True`
+- Allowed options: `any string`
+
+
+_Docs written by The_TecnoKing#7293 & KristN#1234_ & ᲼᲼#3205
