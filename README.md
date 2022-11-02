@@ -273,7 +273,7 @@ Returns a rank of the provided player
 
 ### Request
 ```
-GET https://store-assets.cubecraft.net/v2/store_config.php?
+GET https://store-assets.cubecraft.net/v2/store_config.php
 ```
 
 ### Response
