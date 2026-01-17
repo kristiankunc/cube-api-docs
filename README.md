@@ -6,6 +6,9 @@ REST(?) API accessible @ https://api.cubecraft.net/
 > As of the day I'm writing this, the CubeCraft API is not currently public, and the skins API is protected via Cloudflare's anti-bot protection.
 > Plus, these docs are still a work in progress!
 
+> [!WARNING]
+> The stats page and it's endpoints have been removed.
+
 ## Table of contents <!-- omit in toc -->
 - [Root](#root)
   - [Request](#request)
@@ -292,3 +295,4 @@ A list if all know parameters for this request, if a parameter is invalid, the s
 
 
 _Docs written by The_TecnoKing#7293 & KristN#1234_ & ᲼᲼#3205
+
